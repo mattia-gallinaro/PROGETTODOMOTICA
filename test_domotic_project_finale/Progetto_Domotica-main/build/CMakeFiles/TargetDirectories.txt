@@ -1,0 +1,4 @@
+/home/local/gallmat16574/progetto_domotica/test_domotic_project-main/test_domotic_project_finale/Progetto_Domotica-main/build/CMakeFiles/Progetto_Domotica.dir
+/home/local/gallmat16574/progetto_domotica/test_domotic_project-main/test_domotic_project_finale/Progetto_Domotica-main/build/CMakeFiles/main.dir
+/home/local/gallmat16574/progetto_domotica/test_domotic_project-main/test_domotic_project_finale/Progetto_Domotica-main/build/CMakeFiles/edit_cache.dir
+/home/local/gallmat16574/progetto_domotica/test_domotic_project-main/test_domotic_project_finale/Progetto_Domotica-main/build/CMakeFiles/rebuild_cache.dir
