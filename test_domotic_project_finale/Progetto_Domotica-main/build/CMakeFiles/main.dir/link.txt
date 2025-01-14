@@ -1,1 +1,0 @@
-/usr/bin/c++ -O2 -rdynamic CMakeFiles/main.dir/src/main.cpp.o -o main  -Wl,-rpath,/home/local/gallmat16574/progetto_domotica/test_domotic_project-main/test_domotic_project_finale/Progetto_Domotica-main/build libProgetto_Domotica.so 
