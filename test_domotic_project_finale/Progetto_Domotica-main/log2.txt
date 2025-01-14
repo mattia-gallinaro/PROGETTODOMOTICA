@@ -1,0 +1,72 @@
+Inserisci la contribuzione energetica del impianto fotovoltaico
+2.4
+Inserisci un comando 
+set Lavatrice on
+[00:00] L'orario attuale è 00:00
+[00:00] Il dispositivo 'Lavatrice [1]' si è acceso
+
+Inserisci un comando 
+set Lavastoviglie 10:00
+[00:00] L'orario attuale è 00:00
+[00:00] Impostato un timer per il dispositivo 'Lavastoviglie[2]' dalle 10:00 alle 13:15
+
+Inserisci un comando 
+set time 11:00
+[00:00] L'orario attuale è 00:00
+[01:50] Il dispositivo 'Lavatrice[1]' si è spento
+[10:00] Il dispositivo 'Lavastoviglie [2]' si è acceso
+[11:00] L'orario attuale è 11:00
+Inserisci un comando 
+set Frigorifero 15:00 16:00
+[11:00] L'orario attuale è 11:00
+[11:00] Impostato un timer per il dispositivo 'Frigorifero[6]' dalle 15:00 alle 16:00
+
+Inserisci un comando 
+rm Frigorifero
+[11:00] L'orario attuale è 11:00
+[11:00] Rimosso il timer dal dispositivo 'Frigorifero[6]'
+
+Inserisci un comando 
+set Lavatrice 15:00
+[11:00] L'orario attuale è 11:00
+[11:00] Impostato un timer per il dispositivo 'Lavatrice[1]' dalle 15:00 alle 16:50
+
+Inserisci un comando 
+set time 17:00
+[11:00] L'orario attuale è 11:00
+[13:15] Il dispositivo 'Lavastoviglie[2]' si è spento
+[15:00] Il dispositivo 'Lavatrice [1]' si è acceso
+[16:50] Il dispositivo 'Lavatrice[1]' si è spento
+[17:00] L'orario attuale è 17:00
+Inserisci un comando 
+set time 10:00
+Non puoi impostare un tempo passato
+Inserisci un comando 
+show
+[17:00] Attualmente il sistema ha prodotto (compresa la rete elettrica) 59.500000kWh e consumato 12.208333 kWh. Nello specifico: 
+   -  Il dispositivo Lavatrice ha attualmente consumato 7.333333 kWh 
+   -  Il dispositivo Lavastoviglie ha attualmente consumato 4.875000 kWh 
+   -  Il dispositivo Pompa di calore + termostato ha attualmente consumato .000000 kWh 
+   -  Il dispositivo Tapparelle elettriche ha attualmente consumato .000000 kWh 
+   -  Il dispositivo Scaldabagno ha attualmente consumato .000000 kWh 
+   -  Il dispositivo Frigorifero ha attualmente consumato .000000 kWh 
+   -  Il dispositivo Forno a microonde ha attualmente consumato .000000 kWh 
+   -  Il dispositivo Asciugatrice ha attualmente consumato .000000 kWh 
+   -  Il dispositivo Televisore ha attualmente consumato .000000 kWh 
+
+Inserisci un comando 
+show Lavatrice
+Il Dispositivo Lavatrice ha attualmente consumato -7.333333 kWh 
+
+Inserisci un comando 
+reset all
+[00:00] L'orario attuale e' 00:00 
+
+Inserisci un comando 
+set time 23:58
+[00:00] L'orario attuale è 00:00
+[23:58] L'orario attuale è 23:58
+Inserisci un comando 
+set time 23:59
+[23:58] L'orario attuale è 23:58
+[23:59] L'orario attuale è 23:59
